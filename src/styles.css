@@ -49,6 +49,11 @@ input::placeholder {
   opacity: 0.8;
 }
 
+input {
+  color: white;
+  padding: 5px 0;
+}
+
 input.getUserName:focus::placeholder,
 div.todo-container input:focus::placeholder {
   color: transparent;
