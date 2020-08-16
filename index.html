@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Momentum | index</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/a3d426c7a6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="clock-container js-clockContainer">
+      <span class="js-clock"></span>
+    </div>
+    <div class="user-container">
+      <form class="username-form js-userNameForm">
+        <input
+          class="getUserName"
+          type="text"
+          placeholder="What's your name?"
+        />
+        <span class="greetToUser"></span>
+      </form>
+    </div>
+    <div class="todo-container js-toDoContainer">
+      <form class="js-toDoForm">
+        <input type="text" , placeholder="What's your main focus for today?" />
+      </form>
+      <div class="todo-container__list">
+        <span class="toDoList js-toDos"></span>
+        <span class="doneList"></span>
+      </div>
+    </div>
+    <div class="js-weather"></div>
+    <script src="src/toDo.js"></script>
+    <script src="src/clock.js"></script>
+    <script src="src/greeting.js"></script>
+    <script src="src/bg.js"></script>
+    <script src="src/weather.js"></script>
+  </body>
+</html>
