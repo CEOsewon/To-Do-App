@@ -20,27 +20,31 @@
   }
 }
 
+html,
+body {
+  min-height: 100%;
+}
+
 body {
   width: 100%;
-  height: 1vh;
+  height: 100%;
   font-family: "Noto Sans KR", sans-serif;
-  font-size: 100px;
   animation: fadeIn 2s;
   color: #ecf0f1;
   background-color: #7f8c8d;
 }
 
 div.clock-container {
-  margin-top: 30%;
-  margin-bottom: 10px;
   width: 100%;
+  margin-top: 200px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 div.clock-container span {
-  font-size: 1.5em;
+  font-size: 100px;
   font-weight: 700;
 }
 
@@ -68,13 +72,12 @@ div.user-container {
 div.user-container input {
   border: none;
   text-align: center;
-  height: 40px;
-  font-size: 0.5em;
+  font-size: 40px;
   background-color: transparent;
 }
 
 div.user-container span {
-  font-size: 0.5em;
+  font-size: 40px;
   font-weight: 500;
 }
 
@@ -91,7 +94,6 @@ div.todo-container {
 div.todo-container form {
   display: flex;
   justify-content: center;
-  width: 100%;
 }
 
 div.todo-container input {
@@ -100,24 +102,14 @@ div.todo-container input {
   border: none;
   margin-bottom: 30px;
   padding-bottom: 10px;
-  font-size: 0.3em;
+  font-size: 30px;
   background-color: transparent;
 }
 
 div.todo-container li {
   list-style: none;
   animation: fadeIn 2s;
-  font-size: 0.7em;
-}
-
-div.todo-container span {
-  margin-right: 10px;
-}
-
-div.todo-container button {
-  border: none;
-  margin-right: 10px;
-  background: transparent;
+  font-size: 30px;
 }
 
 div.todo-container__list {
@@ -125,7 +117,7 @@ div.todo-container__list {
   width: 100%;
   justify-content: center;
   align-items: center;
-  font-size: 0.5em;
+  font-size: 40px;
   flex-direction: column;
 }
 
@@ -175,15 +167,15 @@ div.js-weather {
   justify-content: center;
   align-items: center;
   position: absolute;
-  opacity: 0.4;
+  opacity: 0.6;
   bottom: 0;
   width: 100%;
   color: black;
   background-color: white;
-  font-size: 0.3em;
+  font-size: 20px;
 }
 
 div.js-weather img {
-  width: 70px;
-  height: 70px;
+  width: 40px;
+  height: 40px;
 }
