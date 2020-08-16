@@ -31,7 +31,7 @@ body {
 }
 
 div.clock-container {
-  margin-top: 200px;
+  margin-top: 30%;
   margin-bottom: 10px;
   width: 100%;
   display: flex;
@@ -107,7 +107,7 @@ div.todo-container input {
 div.todo-container li {
   list-style: none;
   animation: fadeIn 2s;
-  font-size: 0.5em;
+  font-size: 0.7em;
 }
 
 div.todo-container span {
@@ -130,7 +130,7 @@ div.todo-container__list {
 }
 
 div.todo-container__list li {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 div.todo-container__list span:not(.toDoList),
@@ -180,10 +180,10 @@ div.js-weather {
   width: 100%;
   color: black;
   background-color: white;
-  font-size: 0.15em;
+  font-size: 0.3em;
 }
 
 div.js-weather img {
-  width: 35px;
-  height: 35px;
+  width: 70px;
+  height: 70px;
 }
